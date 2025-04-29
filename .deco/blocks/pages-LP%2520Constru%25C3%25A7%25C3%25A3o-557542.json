@@ -42,7 +42,8 @@
       "__resolveType": "site/sections/Statistics.tsx",
       "cta": {
         "label": "FALE COM UM ESPECIALISTA",
-        "link": "/contato"
+        "link": "/contato",
+        "bgColor": "#bff776"
       },
       "title": "we.digi em números",
       "items": [
