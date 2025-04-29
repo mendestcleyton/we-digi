@@ -3639,6 +3639,10 @@ input.tab:checked + .tab-content,
 .border-transparent {
   border-color: transparent;
 }
+.border-b-\[\#ABABAB\] {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(171 171 171 / var(--tw-border-opacity));
+}
 .bg-\[\#08151D\] {
   --tw-bg-opacity: 1;
   background-color: rgb(8 21 29 / var(--tw-bg-opacity));
@@ -3678,10 +3682,6 @@ input.tab:checked + .tab-content,
 .bg-\[\#F2F2F2\] {
   --tw-bg-opacity: 1;
   background-color: rgb(242 242 242 / var(--tw-bg-opacity));
-}
-.bg-\[\#f0857d\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 133 125 / var(--tw-bg-opacity));
 }
 .bg-\[\#f2f2f2\] {
   --tw-bg-opacity: 1;
@@ -4931,6 +4931,10 @@ input.tab:checked + .tab-content,
     flex: 100px;
   }
 
+  .lg\:flex-\[2\] {
+    flex: 2;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -5105,6 +5109,10 @@ input.tab:checked + .tab-content,
 
   .\32xl\:max-w-\[1520px\] {
     max-width: 1520px;
+  }
+
+  .\32xl\:flex-1 {
+    flex: 1 1 0%;
   }
 }
 
