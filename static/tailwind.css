@@ -2768,6 +2768,9 @@ input.tab:checked + .tab-content,
 .left-\[-25px\] {
   left: -25px;
 }
+.left-\[-45\%\] {
+  left: -45%;
+}
 .left-auto {
   left: auto;
 }
@@ -2779,6 +2782,9 @@ input.tab:checked + .tab-content,
 }
 .right-4 {
   right: 1rem;
+}
+.right-\[-60\%\] {
+  right: -60%;
 }
 .top-0 {
   top: 0px;
@@ -3065,8 +3071,17 @@ input.tab:checked + .tab-content,
 .min-h-\[42px\] {
   min-height: 42px;
 }
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
+.min-h-\[52vh\] {
+  min-height: 52vh;
+}
 .min-h-\[65px\] {
   min-height: 65px;
+}
+.min-h-\[800px\] {
+  min-height: 800px;
 }
 .min-h-full {
   min-height: 100%;
@@ -3119,6 +3134,9 @@ input.tab:checked + .tab-content,
 }
 .w-\[522px\] {
   width: 522px;
+}
+.w-\[90\%\] {
+  width: 90%;
 }
 .w-auto {
   width: auto;
@@ -3221,8 +3239,14 @@ input.tab:checked + .tab-content,
 .max-w-\[480px\] {
   max-width: 480px;
 }
+.max-w-\[490px\] {
+  max-width: 490px;
+}
 .max-w-\[500px\] {
   max-width: 500px;
+}
+.max-w-\[520px\] {
+  max-width: 520px;
 }
 .max-w-\[522px\] {
   max-width: 522px;
@@ -3253,6 +3277,12 @@ input.tab:checked + .tab-content,
 }
 .flex-1 {
   flex: 1 1 0%;
+}
+.flex-\[2\] {
+  flex: 2;
+}
+.flex-\[3\] {
+  flex: 3;
 }
 .flex-\[auto\] {
   flex: auto;
@@ -3626,6 +3656,10 @@ input.tab:checked + .tab-content,
 .bg-\[\#76F5F7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(118 245 247 / var(--tw-bg-opacity));
+}
+.bg-\[\#BFF776\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 247 118 / var(--tw-bg-opacity));
 }
 .bg-\[\#C9CFCF\] {
   --tw-bg-opacity: 1;
@@ -4457,6 +4491,10 @@ input.tab:checked + .tab-content,
     max-width: 43%;
   }
 
+  .max-md\:max-w-\[60\%\] {
+    max-width: 60%;
+  }
+
   .max-md\:flex-col {
     flex-direction: column;
   }
@@ -4756,12 +4794,9 @@ input.tab:checked + .tab-content,
 
 @media (min-width: 1024px) {
 
-  .lg\:left-\[-45\%\] {
-    left: -45%;
-  }
-
-  .lg\:right-\[-60\%\] {
-    right: -60%;
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .lg\:mx-auto {
@@ -4825,6 +4860,10 @@ input.tab:checked + .tab-content,
     min-height: 7rem;
   }
 
+  .lg\:min-h-\[600px\] {
+    min-height: 600px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -4839,6 +4878,10 @@ input.tab:checked + .tab-content,
 
   .lg\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .lg\:w-\[45\%\] {
+    width: 45%;
   }
 
   .lg\:w-fit {
@@ -4864,6 +4907,10 @@ input.tab:checked + .tab-content,
 
   .lg\:max-w-\[360px\] {
     max-width: 360px;
+  }
+
+  .lg\:max-w-\[500px\] {
+    max-width: 500px;
   }
 
   .lg\:max-w-\[80\%\] {
@@ -4976,6 +5023,10 @@ input.tab:checked + .tab-content,
 
   .lg\:pt-28 {
     padding-top: 7rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-2xl {
