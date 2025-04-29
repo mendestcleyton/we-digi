@@ -3179,9 +3179,6 @@ input.tab:checked + .tab-content,
 .min-w-\[4px\] {
   min-width: 4px;
 }
-.min-w-\[50vw\] {
-  min-width: 50vw;
-}
 .min-w-\[65px\] {
   min-width: 65px;
 }
@@ -4642,10 +4639,6 @@ input.tab:checked + .tab-content,
 
   .md\:w-\[52\%\] {
     width: 52%;
-  }
-
-  .md\:min-w-\[20vw\] {
-    min-width: 20vw;
   }
 
   .md\:max-w-6xl {
