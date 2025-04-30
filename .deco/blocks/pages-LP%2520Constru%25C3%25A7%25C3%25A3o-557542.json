@@ -136,13 +136,45 @@
       ]
     },
     {
-      "__resolveType": "site/sections/VideoText.tsx",
-      "text": "<h2 style=\"text-align: center\"><span style=\"color: #76f5f7\">Transformamos os seus dados em métricas visíveis.</span><br><br></h2><p style=\"text-align: center\"><span>Atuamos com Dashboard inteligentes com análise de IA, para tornar ainda mais fácil o seu controle. <br>Tudo 100% personalizado.</span></p>",
-      "cta": {
-        "label": "QUERO VENDER MAIS",
-        "link": "/contato"
+      "__resolveType": "site/sections/FunnelSection.tsx",
+      "title": "Como ampliar o STT ? Aplicando um funil! Conheça mais sobre o nosso método!",
+      "subtitle": "Etapas de foco para a comunicação.",
+      "link": {
+        "label": "QUERO IMPLEMENTAR NO MEU E-COMMERCE",
+        "url": "/contato",
+        "bgColor": "#bff776"
       },
-      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4"
+      "description": "Transformaremos todo o conceito em pontos objetivos e aplicáveis, para você ter muito mais resultado.",
+      "options": [
+        {
+          "title": "Awaerness | Posicionamento de marca",
+          "subtitle": "\"Se posicionar como solucionador de determinado problema \""
+        },
+        {
+          "title": "Topo | Consideração",
+          "subtitle": "\"Abordar as soluções oferecidas\""
+        },
+        {
+          "title": "Meio | Reconhecimento do problema",
+          "subtitle": "\" Formas de entrega da solução \""
+        },
+        {
+          "title": "Fundo | Ações de conversão em compra",
+          "subtitle": "\" Oferta clara de preço e valor \""
+        },
+        {
+          "title": "Pós venda | Pesquisa",
+          "subtitle": "\" Identificar pontos de melhorias\""
+        },
+        {
+          "title": "Fidelizar | Incentivos para diminuir CAC",
+          "subtitle": "\" Fazer com que comprem mais vezes \""
+        },
+        {
+          "title": "Indicar | Criar apoiadores e defensores da marca",
+          "subtitle": "\" Incentivar a influência por indicação \""
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/GridContent.tsx",
@@ -201,6 +233,15 @@
       "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
       "maxWidth": 1050,
       "flex": true
+    },
+    {
+      "__resolveType": "site/sections/VideoText.tsx",
+      "text": "<h2 style=\"text-align: center\"><span style=\"color: #76f5f7\">Transformamos os seus dados em métricas visíveis.</span><br><br></h2><p style=\"text-align: center\"><span>Atuamos com Dashboard inteligentes com análise de IA, para tornar ainda mais fácil o seu controle. <br>Tudo 100% personalizado.</span></p>",
+      "cta": {
+        "label": "QUERO VENDER MAIS",
+        "link": "/contato"
+      },
+      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4"
     },
     {
       "__resolveType": "Footer"
