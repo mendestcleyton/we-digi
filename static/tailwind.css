@@ -3135,6 +3135,9 @@ input.tab:checked + .tab-content,
 .w-\[4px\] {
   width: 4px;
 }
+.w-\[50\%\] {
+  width: 50%;
+}
 .w-\[522px\] {
   width: 522px;
 }
@@ -4888,6 +4891,10 @@ input.tab:checked + .tab-content,
 
   .lg\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .lg\:w-\[30\%\] {
+    width: 30%;
   }
 
   .lg\:w-\[45\%\] {
