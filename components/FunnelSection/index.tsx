@@ -71,7 +71,7 @@ const FunnelSection = ({ link, subtitle, title, description, options }: Props) =
         </div>
       </div>
       {description && (
-        <p class="text-white lg:text-2xl text-center font-light text-base">{description}</p>
+        <p class="text-white lg:text-2xl text-center font-light text-base mb-3">{description}</p>
       )}
       {link && (
         <a class="mx-auto block text-xs w-fit px-8 py-3 rounded-xl text-black font-bold lg:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out" style={{ backgroundColor: link.bgColor ?? '#BFF776' }} href={link.url}>{link.label}</a>
