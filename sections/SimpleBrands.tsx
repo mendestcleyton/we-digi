@@ -36,7 +36,7 @@ const SimpleBrands = ({ bgColor, brands, title }: Props) => {
             <div class="w-full overflow-hidden">
                 <div class="flex w-full animate-marquee h-52">
                     {brands?.map((brand, index) => (
-                        <div class="flex items-center justify-center min-w-[20vw]" key={index}>
+                        <div class="flex items-center justify-center min-w-[50vw] md:min-w-[20vw]" key={index}>
                             <img src={brand.image} alt={brand.title} />
                         </div>
                     ))}

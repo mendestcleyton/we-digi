@@ -107,7 +107,7 @@
     },
     {
       "__resolveType": "site/sections/TextWithCards.tsx",
-      "text": "<h2><span style=\"color: rgb(133, 133, 133)\">Como vamos</span> <span style=\"color: rgb(0, 0, 0)\">escalar o seu e-commerce?</span></h2><p><br></p><p><span>Olhos treinados e focados para o aumento de faturamento do seu negócio. Nossa missão é garantir que você tenha pessoas acessando e comprando com frequência no seu canal.</span></p>",
+      "text": "<h2><span style=\"color: rgb(133, 133, 133)\">Como vamos</span> <span style=\"color: rgb(0, 0, 0)\">escalar o seu e-commerce?</span></h2><p><br></p><p><span style=\"color: #858585\">Olhos treinados e focados para o aumento de faturamento do seu negócio. Nossa missão é garantir que você tenha pessoas acessando e comprando com frequência no seu canal.</span></p>",
       "cards": [
         {
           "icon": "https://assets.decocache.com/we-digi/b9edff8f-645b-432d-887e-86036f531682/secao.png",
@@ -248,7 +248,8 @@
       "text": "<h2 style=\"text-align: center\"><span style=\"color: #76f5f7\">Transformamos os seus dados em métricas visíveis.</span><br><br></h2><p style=\"text-align: center\"><span>Atuamos com Dashboard inteligentes com análise de IA, para tornar ainda mais fácil o seu controle. <br>Tudo 100% personalizado.</span></p>",
       "cta": {
         "label": "QUERO VENDER MAIS",
-        "link": "/contato"
+        "link": "/contato",
+        "bgColor": "#bff776"
       },
       "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4"
     },
@@ -258,7 +259,8 @@
       "description": "Vamos intervir e oferecer no momento exato.",
       "link": {
         "label": "QUERO TUDO ISSO PARA MEU E-COMMERCE",
-        "url": "/contato"
+        "url": "/contato",
+        "bgColor": "#bff776"
       }
     },
     {
