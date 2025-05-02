@@ -235,6 +235,15 @@
       "flex": true
     },
     {
+      "__resolveType": "site/sections/RoundedSection.tsx",
+      "description": "Analisamos ponta a ponta do seu negócio para intervir exatamente onde te trás o maior resultado.",
+      "link": {
+        "label": "QUERO UMA CONSULTA GRÁTIS",
+        "url": "/contato",
+        "bgColor": "#bff776"
+      }
+    },
+    {
       "__resolveType": "site/sections/VideoText.tsx",
       "text": "<h2 style=\"text-align: center\"><span style=\"color: #76f5f7\">Transformamos os seus dados em métricas visíveis.</span><br><br></h2><p style=\"text-align: center\"><span>Atuamos com Dashboard inteligentes com análise de IA, para tornar ainda mais fácil o seu controle. <br>Tudo 100% personalizado.</span></p>",
       "cta": {
