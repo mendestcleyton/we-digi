@@ -253,6 +253,15 @@
       "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4"
     },
     {
+      "__resolveType": "site/sections/StepSection.tsx",
+      "title": "Personalizamos a Jornada do seu Consumidor.",
+      "description": "Vamos intervir e oferecer no momento exato.",
+      "link": {
+        "label": "QUERO TUDO ISSO PARA MEU E-COMMERCE",
+        "url": "/contato"
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
