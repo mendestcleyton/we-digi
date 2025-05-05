@@ -28,6 +28,7 @@ const ModalContactIsland = ({ link, bg, text }: Props) => {
             <div style={{ backgroundImage: `url(${bg})` }} class="w-full lg:max-w-[850px] max-w-[350px] z-10 bg-center bg-no-repeat bg-cover">
                 <div class="flex justify-end lg:mb-8 mb-3">
                     <button
+                        class=""
                         onClick={handleCloseModal}
                     >
                         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
