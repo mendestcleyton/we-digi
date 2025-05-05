@@ -13,6 +13,13 @@
   "global": [
     {
       "__resolveType": "htmx/sections/htmx.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "trackingIds": [
+        "GTM-WW3F56G"
+      ],
+      "src": "https://metrics.wedigi.com.br"
     }
   ],
   "routes": [
@@ -21,7 +28,18 @@
     },
     {
       "__resolveType": "website/loaders/redirects.ts"
-    }
+    },
+    [
+      {
+        "handler": {
+          "value": {
+            "__resolveType": "website/handlers/sitemap.ts",
+            "excludePaths": []
+          }
+        },
+        "pathTemplate": "/sitemap.xml"
+      }
+    ]
   ],
   "caching": {
     "directives": []
